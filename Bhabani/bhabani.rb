@@ -13,7 +13,7 @@ def setup
 #client = Selenium::WebDriver::Remote::Http::Default.new
 #client.timeout = 120 # seconds
 #$driver = Selenium::WebDriver.for(:remote, :http_client => client, :url => 'http://192.168.0.52:4444/wd/hub', :desired_capabilities => ':chrome')
- $driver = Selenium::WebDriver.for :firefox
+ #$driver = Selenium::WebDriver.for :firefox
 #$driver = Selenium::WebDriver.for :chrome
 #$base_url = 'https://www.facebook.com/'
 #$base_url2 = 'http://www.yahoo.com'
