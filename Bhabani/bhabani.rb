@@ -18,7 +18,7 @@ def setup
 #$base_url = 'https://www.facebook.com/'
 #$base_url2 = 'http://www.yahoo.com'
 #$base_url3 = 'https://login.yahoo.com/config/login_verify2?.intl=in&.src=ym'
-#$base_url4='http://tdt.crucibletesting.com/'
+$base_url4='http://tdt.crucibletesting.com/'
 $driver.manage.timeouts.implicit_wait = 180
 @verification_errors = []
 end
