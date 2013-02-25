@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="890ff8b9-9542-4bb9-8e16-f6dd6b69096d" name="Default" comment="" />
+    <list default="true" id="890ff8b9-9542-4bb9-8e16-f6dd6b69096d" name="Default" comment="">
+      <change type="MOVED" beforePath="C:\Users\Admin\Desktop\Webdriver\Bhabani\testcases\tdd.rb" afterPath="$PROJECT_DIR$/Bhabani/testcases/Tdt.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bhabani/bhabani.rb" afterPath="$PROJECT_DIR$/Bhabani/bhabani.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bhabani/chromedriver.log" afterPath="$PROJECT_DIR$/Bhabani/chromedriver.log" />
+    </list>
     <ignored path="Webdriver.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,43 +27,16 @@
       <file leaf-file-name="bhabani.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bhabani/bhabani.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="19" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
+            <state line="89" column="24" selection-start="2121" selection-end="2121" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Signup.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bhabani/testcases/Signup.rb">
+      <file leaf-file-name="Wgll.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bhabani/testcases/Wgll.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tdd.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bhabani/testcases/tdd.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="291" column="0" selection-start="14320" selection-end="14320" vertical-scroll-proportion="12.984252">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gda.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bhabani/testcases/Gda.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="17" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bhabani/testcases/new.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="80" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
+            <state line="80" column="50" selection-start="4588" selection-end="4588" vertical-scroll-proportion="0.6212871">
               <folding />
             </state>
           </provider>
@@ -77,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Vtr/testcases/Facebook.rb" />
         <option value="$PROJECT_DIR$/Vtr/include.rb" />
         <option value="$PROJECT_DIR$/Vtr/testcases/Gda.rb" />
         <option value="$PROJECT_DIR$/Vtr/testcases/new.rb" />
@@ -89,8 +66,11 @@
         <option value="$PROJECT_DIR$/Vtr/testcases/tdd.rb" />
         <option value="$PROJECT_DIR$/Vtr/bhabani.rb" />
         <option value="$PROJECT_DIR$/Bhabani/testcases/new.rb" />
-        <option value="$PROJECT_DIR$/Bhabani/bhabani.rb" />
         <option value="$PROJECT_DIR$/Bhabani/testcases/tdd.rb" />
+        <option value="$PROJECT_DIR$/Bhabani/testcases/Tdt.rb" />
+        <option value="$PROJECT_DIR$/Bhabani/testcases/WGLL.rb" />
+        <option value="$PROJECT_DIR$/Bhabani/bhabani.rb" />
+        <option value="$PROJECT_DIR$/Bhabani/testcases/Wgll.rb" />
       </list>
     </option>
   </component>
@@ -126,6 +106,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,12 +159,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="ruby.project.structure" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Ruby.bhabani">
     <configuration default="false" name="bhabani" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -202,7 +186,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="tdd" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="Tdt" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="Webdriver" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/Bhabani/testcases" />
@@ -212,7 +196,7 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/Bhabani/testcases/tdd.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="C:\Users\Admin\Desktop\Webdriver\Bhabani\testcases\Tdt.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -278,16 +262,34 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Ruby.bhabani" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.tdd" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.Tdt" />
     </list>
     <recent_temporary>
       <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Ruby.bhabani" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.tdd" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.Tdt" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="890ff8b9-9542-4bb9-8e16-f6dd6b69096d" name="Default" comment="" />
@@ -297,23 +299,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.4939117" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23287672" sideWeight="0.6677632" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24429224" sideWeight="0.7269737" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33223686" sideWeight="0.50076103" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33223686" sideWeight="0.4939117" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27302632" sideWeight="0.5129376" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27302632" sideWeight="0.48173517" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -372,20 +374,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Bhabani/testcases/tdd.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="0" selection-start="14313" selection-end="14313" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bhabani/testcases/new.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="137" selection-start="1276" selection-end="1512" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bhabani/bhabani.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="21" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0">
@@ -407,7 +395,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bhabani/testcases/tdd.rb">
+    <entry file="file://$PROJECT_DIR$/Bhabani/testcases/Tdt.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="45" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" />
       </provider>
@@ -427,9 +415,16 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bhabani/testcases/User.rb">
+    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.29.0/lib/selenium/webdriver/common/timeouts.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="102" selection-start="680" selection-end="816" vertical-scroll-proportion="0.0" />
+        <state line="12" column="10" selection-start="230" selection-end="230" vertical-scroll-proportion="0.5012285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bhabani/chromedriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="656" column="0" selection-start="12915" selection-end="12915" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bhabani/testcases/Signup.rb">
@@ -437,33 +432,44 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.29.0/lib/selenium/webdriver/common/timeouts.rb">
+    <entry file="file://$PROJECT_DIR$/Bhabani/testcases/User.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="10" selection-start="230" selection-end="230" vertical-scroll-proportion="0.5012285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bhabani/testcases/Gda.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="17" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0" />
+        <state line="21" column="66" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.7553957">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bhabani/testcases/new.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="80" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
+        <state line="34" column="126" selection-start="1275" selection-end="1512" vertical-scroll-proportion="0.6633663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bhabani/testcases/Gda.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="17" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.4292566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bhabani/testcases/Tdt.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="325" column="86" selection-start="16112" selection-end="16112" vertical-scroll-proportion="-0.793765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bhabani/bhabani.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="19" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
+        <state line="89" column="24" selection-start="2121" selection-end="2121" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bhabani/testcases/tdd.rb">
+    <entry file="file://$PROJECT_DIR$/Bhabani/testcases/Wgll.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="291" column="0" selection-start="14320" selection-end="14320" vertical-scroll-proportion="12.984252">
+        <state line="80" column="50" selection-start="4588" selection-end="4588" vertical-scroll-proportion="0.6212871">
           <folding />
         </state>
       </provider>

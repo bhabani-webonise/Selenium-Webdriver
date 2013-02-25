@@ -1,8 +1,8 @@
-class    Ttd
+class    Tdt
 
   #Test case for Creating a Job Role
 
-  def self.jobrole
+  def self.jobrole1
     $driver.get$base_url4
     $driver.find_element(:id,'username').send_keys'anirban.vodafone@yopmail.com'
     $driver.find_element(:id,'password').send_keys'123456'
@@ -174,15 +174,15 @@ class    Ttd
     Selenium::WebDriver::Support::Select.new($driver.find_element(:id, "point3")).select_by(:text, "Exceeds Expectations")
     $driver.find_element(:xpath, ".//*[@id='JobRolesStatementEditForm']/div[2]/div[2]/div[5]/div[1]/span").click
     Selenium::WebDriver::Support::Select.new($driver.find_element(:id, "point4")).select_by(:text, "Outstanding Expectations")
-    $driver.find_element(:id, "JobRolesStatementsResponse4Response").send_keys "Outstanding Response"
+    $driver.find_element(:id, "JobRolesStatementsResponse4Response").send_keys "Good Response"
     puts "Drop down selection ends"
     $driver.find_element(:xpath, ".//*[@id='JobRolesStatementEditForm']/div[2]/div[3]/input[3]").click
     puts "Dropdown selection ended"
-
     $driver.find_element(:id, "0").click
     $driver.find_element(:xpath, "(//input[@id='0'])[1]").click
     $driver.find_element(:xpath, "(//input[@id='0'])[2]").click
     $driver.find_element(:xpath, "(//input[@id='0'])[3]").click
+    $driver.find_element(:name,'data[JobRoleQuestion][4][question_id]').click
     $driver.find_element(:xpath,".//*[@id='Continue']").click
   end
   def self.InviteUser
@@ -289,6 +289,75 @@ class    Ttd
     $driver.find_element(:xpath,"").click
 
   end
+
+     #Final Automation script for Adding USERS
+
+  def self.AddUser
+    $driver.get$base_url4
+    $driver.find_element(:id,'username').send_keys 'anirban.uiic@yopmail.com'
+    $driver.find_element(:id,'password').send_keys'anirban@6186'
+    $driver.find_element(:class,'btn-inverse').click
+    $driver.find_element(:class,'usersIcon').click
+    $driver.find_element(:link,'Add new user').click
+    userfirstname=Faker::Name.first_name
+    $driver.find_element(:id,'UserFirstName').send_keys userfirstname
+    userlastname=Faker::Name.last_name
+    $driver.find_element(:id,'UserLastName').send_keys userlastname
+    employeeid= "WSSPL" + rand(1..500).to_s
+    $driver.find_element(:id,'ProfileEmployeeId').send_keys employeeid
+    email=Faker::Internet.free_email
+    $driver.find_element(:id,'UserUsername').send_keys  email
+    $driver.find_element(:id,'job_title').send_keys 'System Engineer'
+    $driver.find_element(:xpath,".//*[@id='token-input-reporting_manager_id']").click
+    $driver.find_element(:xpath,".//*[@id='token-input-reporting_manager_id']").send_keys 'Anirban Sinha'
+    puts "1"
+    $driver.find_element(:xpath,".//*[@id='token-input-reporting_manager_id']").send_keys Keys.ARROW_DOWN
+    puts "2"
+    $driver.find_element(:xpath,"html/body/div[3]/ul/li[1]").send_keys Keys.ENTER
+    puts "3"
+    $driver.find_element(:xpath,"html/body/div[3]/ul/li[1]").click
+    Selenium::WebDriver::Support::Select.new($driver.find_element(:class, "levelSelector")).select_by(:text, "Consumer Credit")
+    $driver.find_element(:name,'save').click
+  end
+
+  #Final Automation script for Job Roles
+  def self.jobRole
+  $driver.get$base_url4
+  $driver.find_element(:id,'username').send_keys 'anirban.uiic@yopmail.com'
+  $driver.find_element(:id,'password').send_keys'anirban@6186'
+  $driver.find_element(:class,'btn-inverse').click
+  $driver.find_element(:class,'jobRolesIcon').click
+  $driver.find_element(:link, "Create Job Role").click
+  jobRoleName = Faker::Name.first_name
+  $driver.find_element(:id, 'JobRoleName').send_keys jobRoleName
+  Selenium::WebDriver::Support::Select.new($driver.find_element(:class, "levelSelector")).select_by(:text, "Consumer Credit")
+
+  $driver.find_element(:class,'btnBlack').click
+  $driver.find_element(:xpath,".//*[@id='181']").click
+  $driver.find_element(:class,'nextButton').click
+  puts "Questions"
+  $driver.find_element(:xpath,".//*[@id='JobRolesStatement0StatementId']").click
+  puts "First"
+  $driver.find_element(:class,'noSpaceRight').click
+  puts "Dropdown selection started"
+  $driver.find_element(:xpath, "//form[@id='JobRolesStatementEditForm']/div[2]/div[2]/div[1]/div/span").click
+  Selenium::WebDriver::Support::Select.new($driver.find_element(:id, "point0")).select_by(:text, "Below Expectations")
+  $driver.find_element(:xpath, "//form[@id='JobRolesStatementEditForm']/div[2]/div[2]/div[2]/div/span").click
+  Selenium::WebDriver::Support::Select.new($driver.find_element(:id, "point1")).select_by(:text, "Meets Expectations")
+  $driver.find_element(:xpath, ".//*[@id='JobRolesStatementEditForm']/div[2]/div[2]/div[3]/div[1]/span").click
+  Selenium::WebDriver::Support::Select.new($driver.find_element(:id, "point2")).select_by(:text, "Exceeds Expectations")
+  $driver.find_element(:xpath, ".//*[@id='JobRolesStatementEditForm']/div[2]/div[2]/div[4]/div[1]/span/span[1]").click
+  Selenium::WebDriver::Support::Select.new($driver.find_element(:id, "point3")).select_by(:text, "Outstanding Expectations")
+  $driver.find_element(:class,"noSpaceRight ").click
+  #puts "Dropdown selection ended"
+  $driver.find_element(:id, "0").click
+  $driver.find_element(:xpath, "(//input[@id='0'])[2]").click
+  $driver.find_element(:xpath, "(//input[@id='0'])[3]").click
+  $driver.find_element(:xpath, "(//input[@id='0'])[4]").click
+  $driver.find_element(:class,'Submit').click
+  end
+
 end
+
 
 

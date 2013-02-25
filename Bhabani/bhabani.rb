@@ -5,7 +5,8 @@ require '../bhabani/include'
 #require '../Vtr/testcases/google'
 #require '../Vtr/testcases/Signup'
 #require '../Vtr/testcases/Yahoo'
-require '../bhabani/testcases/tdd'
+#require '../bhabani/testcases/Tdt'
+require '../bhabani/testcases/Wgll'
 
 class Bhabani < Test::Unit::TestCase
 
@@ -13,14 +14,15 @@ def setup
 #client = Selenium::WebDriver::Remote::Http::Default.new
 #client.timeout = 120 # seconds
 #$driver = Selenium::WebDriver.for(:remote, :http_client => client, :url => 'http://192.168.0.52:4444/wd/hub', :desired_capabilities => ':chrome')
- #$driver = Selenium::WebDriver.for :firefox
-#$driver = Selenium::WebDriver.for :chrome
+#$driver = Selenium::WebDriver.for :firefox
+ $driver = Selenium::WebDriver.for :chrome
 #$base_url = 'https://www.facebook.com/'
 #$base_url2 = 'http://www.yahoo.com'
 #$base_url3 = 'https://login.yahoo.com/config/login_verify2?.intl=in&.src=ym'
-$base_url4='http://tdt.crucibletesting.com/'
-$driver.manage.timeouts.implicit_wait = 180
-@verification_errors = []
+#$base_url4='http://tdt.crucibletesting.com/users/users/login'
+ $base_url5='http://crucible.crucibletesting.com/'
+ $driver.manage.timeouts.implicit_wait = 180
+ @verification_errors = []
 end
 
   def teardown
@@ -30,50 +32,64 @@ end
 
   def test_me
     #For jobRole
-    #Ttd.jobrole
+    #Tdt.jobrole
 
     #For behavior capabilities
-    #Ttd.behaviour
+    #Tdt.behaviour
 
-    #Ttd.quality
+    #Tdt.quality
 
     #For Job Role Invite User
-    #Ttd.inviteuser
+    #Tdt.inviteuser
 
     #For Change of Password
-    #Ttd.changePassword
+    #Tdt.changePassword
 
     #For Viewing JobRole
-    # Ttd.ViewJobRole
+    # Tdt.ViewJobRole
 
     #For Viewing Activities and Alerts
-    #Ttd.Activities
+    #Tdt.Activities
 
     #Edit Profile
-    #Ttd.editProfile
+    #Tdt.editProfile
 
     #JobRole
-    # Ttd.CreateRole
+    #Tdt.CreateRole
 
     #Invite User
-    #Ttd.InviteUser
+    #Tdt.InviteUser
 
     #CheckBoxSelection
-    #Ttd.checkBox
+    #Tdt.checkBox
 
     # For Filtering User
-    #Ttd.FilterUser
+    #Tdt.FilterUser
 
     #For Filtering User dynamically using
-    # Ttd.FilterUser2
-     #Ttd.dropdown
+    #Tdt.FilterUser2
+     #Tdt.dropdown
     #For Parameters & Settings
-     #Ttd.settings
-     #Ttd.ComposeEmail
+     #Tdt.settings
+     #Tdt.ComposeEmail
 
-     Integer.random
+     #Integer.random
 
+    #Final Automation script for Add User
+     #Tdt.AddUser
+
+    #Final Automation script for Job Roles
+    # Tdt.jobRole
+    #Automation Script for Adding USer in WGLL
+    #Wgll.AddUser
+
+    #Automation script for WGLL Add jobRole
+     #Wgll.jobRole
+
+    #Automatiin script for WGLL assessment
+    Wgll.wgll_assessment
   end
+
 
 def verify(&blk) 
 yield 
